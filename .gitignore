@@ -70,6 +70,7 @@ dist/
 *.egg
 *.manifest
 *.spec
+.streamlit/secrets.toml
 
 # Test/cache
 .tox/

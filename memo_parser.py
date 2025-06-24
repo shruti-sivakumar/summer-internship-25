@@ -5,12 +5,13 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 from typing import Optional
 import openai
 from dotenv import load_dotenv
+import streamlit as st
 
 # Load environment variables
 load_dotenv()
 
 # Initialize OpenAI client
-client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # ------------------ Pydantic Model ------------------
 
