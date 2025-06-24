@@ -18,13 +18,6 @@ venv.bak/
 secrets.json
 config.json
 
-# Model artifacts
-model_artifacts/
-*.pth
-*.pkl
-*.bin
-*.safetensors
-
 # Sample and user-uploaded data
 data/
 sample_data/
