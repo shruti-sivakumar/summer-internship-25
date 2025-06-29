@@ -89,6 +89,7 @@ The system is deployed as a multi-page Streamlit application providing comprehen
 ```
 streamlit-nlp/
 │
+├── model_artifacts/               # Trained model files for multi-label classification
 ├── main.py                        # Streamlit application entry point
 ├── pages/
 │   ├── data_extraction.py         # Memo parsing interface
@@ -97,14 +98,14 @@ streamlit-nlp/
 ├── memo_parser.py                 # Core memo extraction logic
 ├── keyword_tagger.py              # Multi-label classification engine
 ├── requirements.txt               # Python dependencies
-├── .env.example                   # Environment configuration template
+├── .streamlit/secrets             # API keys and sensitive configuration
 ├── .gitignore                     # Version control exclusions
 └── README.md                      # Project documentation
 ```
 
 **Excluded Components:**
 - model_artifacts/ - Proprietary trained model files
-- .env - API keys and sensitive configuration
+- .streamlit/secrets - API keys and sensitive configuration
 - data/ - Training datasets and business data
 
 ---
@@ -137,8 +138,8 @@ streamlit-nlp/
 
 4. **Configure Environment**
    ```bash
-   cp .env.example .env
-   # Edit .env with required API keys and configurations
+   cp .streamlit/secrets
+   # Edit .streamlit/secrets with required API keys and configurations
    ```
 
 5. **Launch Application**
