@@ -43,7 +43,7 @@ Multi-page Streamlit app with:
 ## 📁 Project Structure
 
 ```
-streamlit-nlp/
+summer-internship-25/
 ├── main.py
 ├── pages/
 ├── model_artifacts/
@@ -59,8 +59,8 @@ streamlit-nlp/
 ## ⚙️ Local Setup
 
 ```bash
-git clone https://github.com/shruti-sivakumar/streamlit-nlp.git
-cd streamlit-nlp
+git clone https://github.com/shruti-sivakumar/summer-internship-25.git
+cd summer-internship-25
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate
 pip install -r requirements.txt
