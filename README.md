@@ -76,15 +76,6 @@ Python · Streamlit · OpenAI API · HuggingFace Transformers · Pydantic · Sci
 
 ---
 
-## 👩🏻‍💻 Author  
-**Shruti Sivakumar**  
-B.Tech CSE (AI), Amrita Vishwa Vidyapeetham  
-📧 shruti.cbe@gmail.com  
-🔗 [GitHub](https://github.com/shruti-sivakumar)  
-💼 [LinkedIn](https://linkedin.com/in/shrutisivakumar25)
-
----
-
 ## 🛡️ Legal & Ethical Notes
 
 - This repo is a sanitized version of the internship deliverables.  
